@@ -1,8 +1,3 @@
-#<img width="550" height="490" alt="Picture1" src="https://github.com/user-#attachments/assets/5fc0d25e-c3fe-456e-b18c-e5870983ea00" />---
-#layout: page
-#title: Publications
----
-
 ## Publications
 
 Full peer-reviewed article list.
