@@ -99,7 +99,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2013_microfluidic.png" alt="2013 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2013.png" alt="2013 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Schneider, Yen, Thompson, Burnham and Chiu</strong></p>
@@ -114,7 +114,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2012_annular.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2012_c.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Dear, Burnham, Summers, McGloin and Ritchie</strong></p>
@@ -125,7 +125,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2012_magnetic.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2012b.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>De Vlaminck, Henighan, van Loenhout, Burnham and Dekker</strong></p>
@@ -136,7 +136,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2012_refractive.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2012a.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Miles, Walker, Burnham and Reid</strong></p>
@@ -151,7 +151,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2011_modelling.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2011d.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Burnham and McGloin</strong></p>
@@ -162,7 +162,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2011_aliasing.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2011c.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Burnham and Chiu</strong></p>
