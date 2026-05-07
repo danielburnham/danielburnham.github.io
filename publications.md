@@ -1,3 +1,8 @@
+---
+layout: page
+title: Publications
+---
+
 ## Publications
 
 30 peer-reviewed articles with ~2,000 citations. Selected highlights below.

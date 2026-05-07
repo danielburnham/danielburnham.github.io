@@ -1,3 +1,8 @@
+---
+layout: page
+title: Home
+---
+
 ## About
 
 I am a Senior Systems Engineer and Research Physicist with 20 years of experience developing advanced optical, holographic, and biophysical instrumentation. My work spans fundamental physics through to patentable concepts and product prototypes, with deep expertise in the manipulation and interaction of light for holography, displays, metrology, sensors, and biophysics.

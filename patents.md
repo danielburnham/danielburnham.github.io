@@ -1,3 +1,8 @@
+---
+layout: page
+title: Patents
+---
+
 ## Patents
 
 14 patents over 5 years, all arising from work at Envisics on holographic Head-Up Display systems.
