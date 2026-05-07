@@ -1,3 +1,8 @@
+---
+layout: page
+title: Publications
+---
+
 ## Publications
 
 Full peer-reviewed article list.
