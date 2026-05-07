@@ -1,13 +1,15 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+title: Dr Daniel R Burnham
+logo: "/images/logo.jpg?raw=true"
+description: >
+  Interdisciplinary Physicist & Engineer with 20 years experience developing advanced optical, holographic and biophysical instrumentation.
   <br><br>
-  Second description 
+  Senior Systems Engineer at Envisics. Formerly Marie Skłodowska-Curie Fellow at the Francis Crick Institute, TU Delft, and University of Washington.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
+  14 patents &bull; 30 peer-reviewed publications &bull; ~2,000 citations
+  <br><br>
+  <a href="https://www.linkedin.com/in/daniel-r-burnham/">View My LinkedIn Profile</a>
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+google_analytics: UA-000000-0
