@@ -348,6 +348,28 @@ Full peer-reviewed article list.
   </div>
 </div>
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2007b.png" alt="2007 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>R Di Leonardo, G Ruocco, J Leach, M J Padgett, A J Wright, J M Girkin, D R Burnham and D McGloin</strong></p>
+    <p>Parametric resonance of optically trapped aerosols</p>
+    <p><em>Phys. Rev. Lett.</em> 99, 010601 (2007)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2007a.png" alt="2007 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>S A Tatarkova, D R Burnham, A K Kirby, G D Love and E M Terentjev</strong></p>
+    <p>Colloidal interactions and transport in nematic liquid crystals</p>
+    <p><em>Phys. Rev. Lett.</em> 98, 157801 (2007)</p>
+  </div>
+</div>
+
 ---
 
 ### 2006
