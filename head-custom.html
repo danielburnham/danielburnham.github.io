@@ -1,0 +1,46 @@
+<style>
+  nav.site-nav {
+    margin-bottom: 2em;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.75em;
+  }
+  nav.site-nav a {
+    margin-right: 1.5em;
+    font-size: 0.95em;
+    font-weight: 600;
+    color: #555;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  nav.site-nav a:hover,
+  nav.site-nav a.active {
+    color: #111;
+    border-bottom: 2px solid #111;
+    padding-bottom: 2px;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var nav = document.createElement("nav");
+    nav.className = "site-nav";
+    var pages = [
+      { label: "Home", url: "/" },
+      { label: "Experience", url: "/experience" },
+      { label: "Publications", url: "/publications" },
+      { label: "Patents", url: "/patents" }
+    ];
+    var current = window.location.pathname.replace(/\/$/, "") || "/";
+    pages.forEach(function (p) {
+      var a = document.createElement("a");
+      a.href = p.url;
+      a.textContent = p.label;
+      var pagePath = p.url.replace(/\/$/, "") || "/";
+      if (current === pagePath) a.className = "active";
+      nav.appendChild(a);
+    });
+    var section = document.querySelector("section");
+    if (section) section.insertBefore(nav, section.firstChild);
+  });
+</script>
