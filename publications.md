@@ -131,7 +131,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2012a.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2012a.jpeg" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Miles, Walker, Burnham and Reid</strong></p>
