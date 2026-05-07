@@ -225,10 +225,9 @@ Full peer-reviewed article list.
   </div>
 </div>
 
-
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2010d.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2010a.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>K J Knox, D R Burnham, L I McCann, S L Murphy, D McGloin and J P Reid</strong></p>
@@ -245,7 +244,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2009_brownian.png" alt="2009 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2009d.png" alt="2009 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Burnham and McGloin</strong></p>
@@ -254,6 +253,104 @@ Full peer-reviewed article list.
   </div>
 </div>
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2009c.png" alt="2009 Mixing Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>M Cordero, H O Rolfsnes, D R Burnham, P A Campbell, D McGloin and C Baroud</strong></p>
+    <p>Mixing via thermocapillary generation of flow patterns inside a microfluidic drop</p>
+    <p><em>New J. Phys.</em> 11, 075033 (2009)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2009b.png" alt="2009 Underdamped Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>A M Yao, S A J Keen, D R Burnham, J Leach, R Di Leonardo, D McGloin and M J Padgett</strong></p>
+    <p><a href="http://iopscience.iop.org/article/10.1088/1367-2630/11/5/053007/pdf">Underdamped modes in a hydrodynamically coupled microparticle system</a></p>
+    <p><em>New J. Phys.</em> 11, 053005 (2009)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2009a.png" alt="2009 Spectroscopic Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>J R Butler, J B Wills, L Mitchem, D R Burnham, D McGloin and J P Reid</strong></p>
+    <p>Spectroscopic characterisation and manipulation of arrays of sub-picolitre aerosol droplets</p>
+    <p><em>Lab Chip</em> 9, 521 (2009)</p>
+  </div>
+</div>
+
+---
+
+### 2008
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2008d.png" alt="2008 Thermocapillary Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>M Cordero, D R Burnham, C N Baroud and D McGloin</strong></p>
+    <p>Thermocapillary manipulation of droplets using holographic beam shaping: Microfluidic pin-ball</p>
+    <p><em>Appl. Phys. Lett.</em> 93, 034107 (2008)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2008c.png" alt="2008 Phase Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>C Lopez-Mariscal, D R Burnham, D Rudd, D McGloin and J Gutierrez-Vega</strong></p>
+    <p><a href="https://www.osapublishing.org/DirectPDFAccess/292AF93E-0853-4F89-31A6FF1DF8083F80_167874/oe-16-15-11411.pdf?da=1&id=167874&seq=0&mobile=no">Phase dynamics of continuous topological upconversion in vortex beams</a></p>
+    <p><em>Opt. Exp.</em> 16, 11411 (2008)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2008b.png" alt="2008 Trapping Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>M D Summers, D R Burnham and D McGloin</strong></p>
+    <p><a href="https://www.osapublishing.org/DirectPDFAccess/293B099C-EA06-7C50-D43964274A9C8940_160063/oe-16-11-7739.pdf?da=1&id=160063&seq=0&mobile=no">Trapping solid aerosols with optical tweezers: A comparison between gas and liquid phase optical traps</a></p>
+    <p><em>Opt. Exp.</em> 16, 7739 (2008)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2008a.png" alt="2008 Manipulation Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>D McGloin, D R Burnham, M D Summers, D Rudd, N Dewar and S Anand</strong></p>
+    <p>Optical manipulation of airborne particles: techniques and applications</p>
+    <p><em>Faraday Discuss.</em> 137, 335 (2008)</p>
+  </div>
+</div>
+
+---
+
+### 2007
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2007c.png" alt="2007 Hyphal Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>D R Burnham, G D Wright, N D Read and D McGloin</strong></p>
+    <p>Holographic and single beam optical manipulation of hyphal growth in filamentous fungi</p>
+    <p><em>J. Opt.</em> 9, S172 (2007)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0
 ---
 
 ### 2006
