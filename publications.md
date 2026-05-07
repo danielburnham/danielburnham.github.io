@@ -1,4 +1,4 @@
----
+<img width="550" height="490" alt="Picture1" src="https://github.com/user-attachments/assets/5fc0d25e-c3fe-456e-b18c-e5870983ea00" />---
 layout: page
 title: Publications
 ---
@@ -28,7 +28,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2019_helicase.png" alt="2019 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/Burnham2019.png" alt="2019 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Burnham, Kose, Hoyle and Yardimci</strong></p>
@@ -43,7 +43,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2017_harp.png" alt="2017 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2017.png" alt="2017 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Burnham, Nijholt, De Vlaminck, Quan, Yusufzai and Dekker</strong></p>
@@ -58,7 +58,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2015_click_chem.png" alt="2015 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2015.png" alt="2015 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Eeftens, van der Torre, Burnham and Dekker</strong></p>
@@ -73,12 +73,23 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2014_force_micro.png" alt="2014 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2014b.png" alt="2014 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Power, Burnham and Reid</strong></p>
     <p><a href="https://doi.org/10.1364/AO.53.008522">Towards optical tweezers based force microscopy for airborne microparticles</a></p>
     <p><em>Appl. Opt.</em> 53, 8522-8534 (2014)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2014a.png" alt="2014 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>D R Burnham, I De Vlaminck, T Henighan and C Dekker</strong></p>
+    <p><a href="https://doi.org/10.1364/AO.53.008522">Skewed Brownian fluctuations in single-molecule magnetic tweezers</a></p>
+    <p><em>PLoS One</em> 9, e108271 (2014)</p>
   </div>
 </div>
 
