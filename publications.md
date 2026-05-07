@@ -114,7 +114,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2012_c.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2012c.png" alt="2012 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Dear, Burnham, Summers, McGloin and Ritchie</strong></p>
@@ -173,12 +173,23 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2011_tjunction.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2011b.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Schneider, Burnham, Van Orden and Chiu</strong></p>
     <p><a href="https://doi.org/10.1039/C1LC20259F">Systematic investigation of droplet generation at T-junctions</a></p>
     <p><em>Lab Chip</em>, 11, 2055 (2011)</p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
+  <div style="flex: 0 0 180px; margin-right: 20px;">
+    <img src="/images/2011a.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+  </div>
+  <div>
+    <p><strong>C Wu, S Hansen, Q Hou, J Yu, M Zeigler, Y Jin, D R Burnham, J D McNeill, J Olson, and D T Chiu</strong></p>
+    <p><a href="v">Systematic investigation of droplet generation at T-junctions</a></p>
+    <p><em>v</em>, 50, 3430 (2011)</p>
   </div>
 </div>
 
@@ -188,7 +199,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2010_param_explore.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2010d.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Burnham, Reece and McGloin</strong></p>
@@ -199,7 +210,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/assets/images/2010_polymer_dots.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2010c.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Wu, Jin, Schneider, Burnham et al.</strong></p>
