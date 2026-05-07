@@ -13,7 +13,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2025a.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/patent1.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Display system and method of holographic projection with an improved optical combiner</strong></p>
