@@ -349,8 +349,6 @@ Full peer-reviewed article list.
   </div>
 </div>
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
-  <div style="flex: 0 0
 ---
 
 ### 2006
