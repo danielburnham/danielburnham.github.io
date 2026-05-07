@@ -221,7 +221,7 @@ Full peer-reviewed article list.
   <div>
     <p><strong>C Wu, T Schneider, M Zeigler, J Yu, P G Schiro, D R Burnham, J D McNeill, and D T Chiu</strong></p>
     <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2965818/pdf/nihms244129.pdfz">Bioconjugation of ultrabright semiconducting polymer dots for specific cellular targeting</a></p>
-    <p><em>J. Am. Chem. Soc. 132, 15410 (2010)</p>
+    <p><em>J. Am. Chem. Soc.</em> 132, 15410 (2010)</p>
   </div>
 </div>
 
@@ -235,7 +235,6 @@ Full peer-reviewed article list.
     <p><em>J. Opt. Soc. Am. B</em> 27, 582 (2010)</p>
   </div>
 </div>
-
 
 
 ---
