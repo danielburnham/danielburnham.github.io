@@ -82,7 +82,7 @@ Full peer-reviewed article list.
     <img src="/images/2014a.png" alt="2014 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
-    <p><strong>D R Burnham, I De Vlaminck, T Henighan and C Dekker</strong></p>
+    <p><strong>Burnham, Vlaminck, Henighan and C Dekker</strong></p>
     <p><a href="https://doi.org/10.1364/AO.53.008522">Skewed Brownian fluctuations in single-molecule magnetic tweezers</a></p>
     <p><em>PLoS One</em> 9, e108271 (2014)</p>
   </div>
@@ -182,7 +182,7 @@ Full peer-reviewed article list.
     <img src="/images/2011a.png" alt="2011 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
-    <p><strong>C Wu, S Hansen, Q Hou, J Yu, M Zeigler, Y Jin, D R Burnham, J D McNeill, J Olson, and D T Chiu</strong></p>
+    <p><strong>Wu, Hansen, Hou, Yu, Zeigler, Jin, Burnham, McNeill, Olson, and Chiu</strong></p>
     <p><a href="v">Systematic investigation of droplet generation at T-junctions</a></p>
     <p><em>v</em>, 50, 3430 (2011)</p>
   </div>
@@ -219,7 +219,7 @@ Full peer-reviewed article list.
     <img src="/images/2010b.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
-    <p><strong>C Wu, T Schneider, M Zeigler, J Yu, P G Schiro, D R Burnham, J D McNeill, and D T Chiu</strong></p>
+    <p><strong>Wu, Schneider, Zeigler, Yu, Schiro, Burnham, McNeill, and Chiu</strong></p>
     <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2965818/pdf/nihms244129.pdfz">Bioconjugation of ultrabright semiconducting polymer dots for specific cellular targeting</a></p>
     <p><em>J. Am. Chem. Soc.</em> 132, 15410 (2010)</p>
   </div>
@@ -230,7 +230,7 @@ Full peer-reviewed article list.
     <img src="/images/2010a.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
-    <p><strong>K J Knox, D R Burnham, L I McCann, S L Murphy, D McGloin and J P Reid</strong></p>
+    <p><strong>Knox, Burnham, McCann, Murphy, McGloin and Reid</strong></p>
     <p>Observation of bistability of trapping position in aerosol optical tweezers</p>
     <p><em>J. Opt. Soc. Am. B</em> 27, 582 (2010)</p>
   </div>
