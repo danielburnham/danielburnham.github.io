@@ -67,7 +67,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2024a.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/patent2.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Holographic projector and method</strong></p>
