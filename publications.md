@@ -232,7 +232,7 @@ Full peer-reviewed article list.
   <div>
     <p><strong>K J Knox, D R Burnham, L I McCann, S L Murphy, D McGloin and J P Reid</strong></p>
     <p>Observation of bistability of trapping position in aerosol optical tweezers</p>
-    <p><em>J. Opt. Soc. Am. B 27, 582 (2010)</p>
+    <p><em>J. Opt. Soc. Am. B</em> 27, 582 (2010)</p>
   </div>
 </div>
 
