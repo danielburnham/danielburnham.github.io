@@ -216,7 +216,7 @@ Full peer-reviewed article list.
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2010c.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/2010b.png" alt="2010 Publication Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>C Wu, T Schneider, M Zeigler, J Yu, P G Schiro, D R Burnham, J D McNeill, and D T Chiu</strong></p>
