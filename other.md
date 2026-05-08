@@ -5,7 +5,7 @@ title: Other
 
 ## Building
 
-I like to build things to look and measure other things.
+I like to build things to observe and measure other things.
 
 <video width="100%" controls>
   <source src="/images/DanielLabTimeLapse.mp4" type="video/mp4">
