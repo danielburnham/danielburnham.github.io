@@ -10,7 +10,7 @@ description: >
   <a href="https://www.linkedin.com/in/daniel-r-burnham/">LinkedIn</a>
 
 github:
-  project_title: "View Repositories"
+  project_title: "github"
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
