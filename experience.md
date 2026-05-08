@@ -3,10 +3,6 @@ layout: page
 title: Experience
 ---
 
-## Experience
-
----
-
 ### Senior Holographic Systems Engineer
 **Envisics** — Apr 2022 to Apr 2026
 
