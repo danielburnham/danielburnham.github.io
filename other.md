@@ -5,6 +5,8 @@ title: Other
 
 ## Building
 
+I like to build things to look and measure other things.
+
 <video width="100%" controls>
   <source src="/images/DanielLabTimeLapse.mp4" type="video/mp4">
   Your browser does not support the video tag.
