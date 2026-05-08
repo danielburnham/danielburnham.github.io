@@ -9,6 +9,7 @@ title: Experience
 
 ### Senior Holographic Systems Engineer
 **Envisics** — Apr 2022 to Apr 2026
+
 *Series C Automotive Hardware, Tier 2, ~100 people worldwide*
 
 *(Also held as Holographic Systems Engineer, Jan 2021–Apr 2022)*
