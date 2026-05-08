@@ -12,4 +12,4 @@ title: Other
 
 ---
 
-### Art
+## Art
