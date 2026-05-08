@@ -77,7 +77,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2024_dc.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/DCorderblock.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Dc order block</strong></p>
@@ -87,7 +87,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2024b.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/fibre.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Holographic system and pupil expander therefor</strong></p>
@@ -97,7 +97,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2024_integrity.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/integrity.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Pupil expander integrity</strong></p>
