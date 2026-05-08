@@ -43,7 +43,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2025_opt.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    
   </div>
   <div>
     <p><strong>Optimisation of compact holographic projector</strong></p>
@@ -53,7 +53,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2025_combiner.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    
   </div>
   <div>
     <p><strong>Improved optical combiner</strong></p>
