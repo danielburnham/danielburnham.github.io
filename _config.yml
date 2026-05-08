@@ -9,6 +9,9 @@ description: >
   <br><br>
   <a href="https://www.linkedin.com/in/daniel-r-burnham/">LinkedIn</a>
 
+github:
+  project_title: "View Repositories"
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
