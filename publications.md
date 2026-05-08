@@ -3,12 +3,6 @@ layout: page
 title: Publications
 ---
 
-## Publications
-
-Full peer-reviewed article list.
-
----
-
 ### 2020
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
