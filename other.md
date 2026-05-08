@@ -13,3 +13,19 @@ title: Other
 ---
 
 ## Art
+
+### Python Generated Art
+
+<table style="width:100%; border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td style="width:33%; border: none; padding: 5px;">
+      <img src="/images/art1.jpg" alt="Art 1" style="width:100%;">
+    </td>
+    <td style="width:33%; border: none; padding: 5px;">
+      <img src="/images/art2.jpg" alt="Art 2" style="width:100%;">
+    </td>
+    <td style="width:33%; border: none; padding: 5px;">
+      <img src="/images/art3.jpg" alt="Art 3" style="width:100%;">
+    </td>
+  </tr>
+</table>
