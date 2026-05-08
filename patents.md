@@ -3,12 +3,6 @@ layout: page
 title: Patents
 ---
 
-## Patents
-
-14 patents over 5 years
-
----
-
 ### 2025
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
