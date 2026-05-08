@@ -43,10 +43,13 @@ DNA manipulation, PCR, surface chemistry, microfluidics, soft lithography, gel e
 
 **Funding:**
 Secured £215k in research funding from the Lindemann Trust, SPIE, European Commission, and the Francis Crick Institute
+
 **Speaking:**
 Delivered 23 international conference presentations and 5 invited university seminars
+
 **Policy:**
 Royal Society Parliamentary Pairing Scheme — shadowed an MP to study science-led policymaking
+
 **Outreach:**
 Crick/Social Mobility Foundation mentor; organised science festivals and school outreach events
 
