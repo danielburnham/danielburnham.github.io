@@ -23,7 +23,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2025_aperture.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/mask.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Aperture mask</strong></p>
@@ -33,7 +33,7 @@ title: Patents
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 25px;">
   <div style="flex: 0 0 180px; margin-right: 20px;">
-    <img src="/images/2025b.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
+    <img src="/images/speckle.png" alt="Patent Image" style="width: 100%; height: auto; border: 1px solid #eee;">
   </div>
   <div>
     <p><strong>Speckle mitigation</strong></p>
