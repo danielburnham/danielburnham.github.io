@@ -47,7 +47,7 @@ I like to build things to observe and measure other things.
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     // --- CONFIGURATION ---
-    const ORS_API_KEY = eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjgzOTI0YWMxM2FmMjQ0YTM5MzU0YTZjOGYxZTQ4YTZiIiwiaCI6Im11cm11cjY0In0=; // <--- PASTE YOUR KEY HERE
+    const ORS_API_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjgzOTI0YWMxM2FmMjQ0YTM5MzU0YTZjOGYxZTQ4YTZiIiwiaCI6Im11cm11cjY0In0='; // <--- PASTE YOUR KEY HERE
     const map = L.map('map').setView([41.8781, -87.6298], 12);
     let isochroneLayer;
     let startMarker;
