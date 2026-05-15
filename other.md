@@ -34,61 +34,89 @@ I like to build things to observe and measure other things.
 
 ---
 
-## Directions
+## Reachability Map
 
-<!-- 1. Map Container -->
 <div id="map" style="height: 500px; width: 100%; border-radius: 12px; border: 1px solid #ccc;"></div>
 
-<!-- 2. Stable Assets (Using 2.4.0 for the geocoder to avoid the 2025/2026 bugs) -->
+<!-- 1. Load Leaflet and Geocoder -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.css" />
-
+<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
-<script src="https://unpkg.com/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    var map = L.map('map').setView([41.8781, -87.6298], 13);
+    // --- CONFIGURATION ---
+    const ORS_API_KEY = eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjgzOTI0YWMxM2FmMjQ0YTM5MzU0YTZjOGYxZTQ4YTZiIiwiaCI6Im11cm11cjY0In0=; // <--- PASTE YOUR KEY HERE
+    const map = L.map('map').setView([41.8781, -87.6298], 12);
+    let isochroneLayer;
+    let startMarker;
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap'
+        attribution: '© OpenStreetMap | OpenRouteService'
     }).addTo(map);
 
-    // 3. Routing Engine with fix for address search
-    var control = L.Routing.control({
-        waypoints: [
-            L.latLng(41.8781, -87.6298), // Chicago
-            L.latLng(41.8827, -87.6233)  // Millennium Park
-        ],
-        lineOptions: {
-            styles: [{color: '#2A82DA', opacity: 0.8, weight: 5}]
-        },
-        routeWhileDragging: true,
-        // This geocoder block is what makes address typing work
-        geocoder: L.Control.Geocoder.nominatim()
-    }).addTo(map);
+    // 2. Function to fetch the "Time Patch"
+    async function updateIsochrone(latlng, minutes = 30) {
+        // Remove old layer if it exists
+        if (isochroneLayer) map.removeLayer(isochroneLayer);
+        
+        const seconds = minutes * 60;
+        const url = `https://api.openrouteservice.org/v2/isochrones/driving-car`;
+        
+        const body = {
+            locations: [[latlng.lng, latlng.lat]],
+            range: [seconds],
+            range_type: "time"
+        };
 
-    // Auto-fix layout for Jekyll
+        try {
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': ORS_API_KEY
+                },
+                body: JSON.stringify(body)
+            });
+            const data = await response.json();
+            
+            // 3. Draw the colored patch
+            isochroneLayer = L.geoJSON(data, {
+                style: {
+                    color: '#ff7800',
+                    weight: 2,
+                    opacity: 0.65,
+                    fillColor: '#ff7800',
+                    fillOpacity: 0.3
+                }
+            }).addTo(map);
+            
+            map.fitBounds(isochroneLayer.getBounds());
+        } catch (e) {
+            alert("Error fetching reachability data. Check your API key!");
+        }
+    }
+
+    // 4. Add Search Bar to set start location
+    const geocoder = L.Control.geocoder({ defaultMarkGeocode: false })
+        .on('markgeocode', function(e) {
+            const latlng = e.geocode.center;
+            if (startMarker) startMarker.setLatLng(latlng);
+            else startMarker = L.marker(latlng).addTo(map);
+            updateIsochrone(latlng);
+        })
+        .addTo(map);
+
+    // Click map to set start
+    map.on('click', function(e) {
+        if (startMarker) startMarker.setLatLng(e.latlng);
+        else startMarker = L.marker(e.latlng).addTo(map);
+        updateIsochrone(e.latlng);
+    });
+
     setTimeout(() => { map.invalidateSize(); }, 500);
 });
 </script>
-
-<style>
-  /* 4. "Clean Mode" Styling */
-  .leaflet-routing-container {
-    width: 300px;
-    background-color: rgba(255, 255, 255, 0.9);
-    font-family: sans-serif;
-    font-size: 13px;
-    border: none !important;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    border-radius: 8px;
-  }
-  .leaflet-routing-alt {
-    max-height: 250px; /* Limits the list so it doesn't cover the whole map */
-  }
-</style>
 
 ---
