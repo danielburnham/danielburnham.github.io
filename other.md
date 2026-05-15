@@ -31,3 +31,30 @@ I like to build things to observe and measure other things.
     </td>
   </tr>
 </table>
+
+---
+
+## Location
+
+<!-- Map Container -->
+<div id="map" style="height: 400px; width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd;"></div>
+
+<!-- Load Leaflet Assets -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+  // Initialize map - centered on Chicago (41.87, -87.62)
+  var map = L.map('map').setView([41.8781, -87.6298], 12);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Add a marker
+  L.marker([41.8781, -87.6298]).addTo(map)
+    .bindPopup('Daniel Burnham\'s Chicago')
+    .openPopup();
+</script>
+
+---
