@@ -34,56 +34,60 @@ I like to build things to observe and measure other things.
 
 ---
 
-## Directions Map
+## Directions
 
 <!-- 1. Map Container -->
-<div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd;"></div>
+<div id="map" style="height: 500px; width: 100%; border-radius: 12px; border: 1px solid #ccc;"></div>
 
-<!-- 2. Load Leaflet & Routing Assets -->
+<!-- 2. Stable Assets (Using 2.4.0 for the geocoder to avoid the 2025/2026 bugs) -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.css" />
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-<!-- Geocoder is needed so you can type addresses instead of just clicking -->
-<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder@2.4.0/dist/Control.Geocoder.js"></script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // Initialize map
-    var map = L.map('map').setView([41.8781, -87.6298], 12);
+document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('map').setView([41.8781, -87.6298], 13);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
+        attribution: '© OpenStreetMap'
     }).addTo(map);
 
-    // 3. Add Routing Control
+    // 3. Routing Engine with fix for address search
     var control = L.Routing.control({
-      waypoints: [
-        L.latLng(41.8781, -87.6298), // Default Start: Chicago
-        L.latLng(41.8827, -87.6233)  // Default End: Millennium Park
-      ],
-      routeWhileDragging: true,
-      geocoder: L.Control.Geocoder.nominatim(), // Allows typing addresses
-      router: L.Routing.osrmv1({
-        serviceUrl: 'https://router.project-osrm.org/route/v1'
-      })
+        waypoints: [
+            L.latLng(41.8781, -87.6298), // Chicago
+            L.latLng(41.8827, -87.6233)  // Millennium Park
+        ],
+        lineOptions: {
+            styles: [{color: '#2A82DA', opacity: 0.8, weight: 5}]
+        },
+        routeWhileDragging: true,
+        // This geocoder block is what makes address typing work
+        geocoder: L.Control.Geocoder.nominatim()
     }).addTo(map);
 
-    // Fix for display glitches in Jekyll themes
-    setTimeout(function(){ map.invalidateSize()}, 500);
-  });
+    // Auto-fix layout for Jekyll
+    setTimeout(() => { map.invalidateSize(); }, 500);
+});
 </script>
 
 <style>
-  /* Optional: Adjust the size/look of the directions panel */
+  /* 4. "Clean Mode" Styling */
   .leaflet-routing-container {
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-    max-height: 400px;
-    overflow-y: auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: sans-serif;
+    font-size: 13px;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  .leaflet-routing-alt {
+    max-height: 250px; /* Limits the list so it doesn't cover the whole map */
   }
 </style>
 
