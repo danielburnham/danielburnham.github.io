@@ -34,16 +34,18 @@ I like to build things to observe and measure other things.
 
 ---
 
-## Location
+## Directions Map
 
 <!-- 1. Map Container -->
-<div id="map" style="height: 450px; width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd;"></div>
+<div id="map" style="height: 500px; width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd;"></div>
 
-<!-- 2. Load Leaflet & Geocoder Assets -->
+<!-- 2. Load Leaflet & Routing Assets -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<!-- Geocoder is needed so you can type addresses instead of just clicking -->
 <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
 <script>
@@ -55,32 +57,34 @@ I like to build things to observe and measure other things.
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    // Create a global marker variable so we can move it later
-    var marker = L.marker([41.8781, -87.6298]).addTo(map)
-      .bindPopup('Daniel Burnham\'s Chicago')
-      .openPopup();
+    // 3. Add Routing Control
+    var control = L.Routing.control({
+      waypoints: [
+        L.latLng(41.8781, -87.6298), // Default Start: Chicago
+        L.latLng(41.8827, -87.6233)  // Default End: Millennium Park
+      ],
+      routeWhileDragging: true,
+      geocoder: L.Control.Geocoder.nominatim(), // Allows typing addresses
+      router: L.Routing.osrmv1({
+        serviceUrl: 'https://router.project-osrm.org/route/v1'
+      })
+    }).addTo(map);
 
-    // 3. Add the Search Control (Geocoder)
-    var geocoder = L.Control.geocoder({
-      defaultMarkGeocode: false, // Prevents creating a second marker automatically
-      placeholder: "Type an address...",
-      errorMessage: "Address not found."
-    })
-    .on('markgeocode', function(e) {
-      var latlng = e.geocode.center;
-      
-      // Move the existing marker to the new location
-      marker.setLatLng(latlng);
-      marker.bindPopup(e.geocode.name).openPopup();
-      
-      // Center the map on the new location
-      map.setView(latlng, 15); 
-    })
-    .addTo(map);
-    
     // Fix for display glitches in Jekyll themes
     setTimeout(function(){ map.invalidateSize()}, 500);
   });
 </script>
+
+<style>
+  /* Optional: Adjust the size/look of the directions panel */
+  .leaflet-routing-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    max-height: 400px;
+    overflow-y: auto;
+  }
+</style>
 
 ---
