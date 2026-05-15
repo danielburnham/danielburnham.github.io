@@ -36,25 +36,32 @@ I like to build things to observe and measure other things.
 
 ## Location
 
-<!-- Map Container -->
+<!-- 1. The Container (Must come BEFORE the script) -->
 <div id="map" style="height: 400px; width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd;"></div>
 
-<!-- Load Leaflet Assets -->
+<!-- 2. Leaflet Assets -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
+<!-- 3. The Logic -->
 <script>
-  // Initialize map - centered on Chicago (41.87, -87.62)
-  var map = L.map('map').setView([41.8781, -87.6298], 12);
+  document.addEventListener("DOMContentLoaded", function() {
+    // Initialize map
+    var map = L.map('map').setView([41.8781, -87.6298], 12);
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
+    // Add Tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-  // Add a marker
-  L.marker([41.8781, -87.6298]).addTo(map)
-    .bindPopup('Daniel Burnham\'s Chicago')
-    .openPopup();
+    // Add Marker
+    L.marker([41.8781, -87.6298]).addTo(map)
+      .bindPopup("<b>Daniel Burnham's Chicago</b><br>Make no little plans.")
+      .openPopup();
+      
+    // Fix for gray tiles/display glitches on some Jekyll themes
+    setTimeout(function(){ map.invalidateSize()}, 400);
+  });
 </script>
 
 ---
