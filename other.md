@@ -36,25 +36,51 @@ I like to build things to observe and measure other things.
 
 ## Location
 
-<!-- Map Container -->
-<div id="map" style="height: 400px; width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd;"></div>
+<!-- 1. Map Container -->
+<div id="map" style="height: 450px; width: 100%; border-radius: 8px; margin-bottom: 20px; border: 1px solid #ddd;"></div>
 
-<!-- Load Leaflet Assets -->
+<!-- 2. Load Leaflet & Geocoder Assets -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
 <script>
-  // Initialize map - centered on Chicago (41.87, -87.62)
-  var map = L.map('map').setView([41.8781, -87.6298], 12);
+  document.addEventListener("DOMContentLoaded", function() {
+    // Initialize map
+    var map = L.map('map').setView([41.8781, -87.6298], 12);
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
 
-  // Add a marker
-  L.marker([41.8781, -87.6298]).addTo(map)
-    .bindPopup('Daniel Burnham\'s Chicago')
-    .openPopup();
+    // Create a global marker variable so we can move it later
+    var marker = L.marker([41.8781, -87.6298]).addTo(map)
+      .bindPopup('Daniel Burnham\'s Chicago')
+      .openPopup();
+
+    // 3. Add the Search Control (Geocoder)
+    var geocoder = L.Control.geocoder({
+      defaultMarkGeocode: false, // Prevents creating a second marker automatically
+      placeholder: "Type an address...",
+      errorMessage: "Address not found."
+    })
+    .on('markgeocode', function(e) {
+      var latlng = e.geocode.center;
+      
+      // Move the existing marker to the new location
+      marker.setLatLng(latlng);
+      marker.bindPopup(e.geocode.name).openPopup();
+      
+      // Center the map on the new location
+      map.setView(latlng, 15); 
+    })
+    .addTo(map);
+    
+    // Fix for display glitches in Jekyll themes
+    setTimeout(function(){ map.invalidateSize()}, 500);
+  });
 </script>
 
 ---
